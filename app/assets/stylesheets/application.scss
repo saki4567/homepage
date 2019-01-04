@@ -1,0 +1,109 @@
+body {
+	font-family: 'Noto Serif JP', serif;
+}
+
+body p {
+	margin: 2px 0;
+}
+
+.main_container {
+	font-family: 'Noto Serif JP', serif;
+	width: 40%;
+	margin: 70px auto;
+}
+
+
+
+/* Header */
+
+
+.navbar {
+	height: 130px;
+	background-image: url(home.jpg);
+	font-weight: 400;
+	font-family: 'Noto Serif SC', serif;
+}
+
+.navbar .nav-link {
+	color: #F4F2F2;
+}
+
+.navbar .nav-link:hover {
+	color: #F4F2F2;
+	opacity: 0.7;
+	transition: .3s;
+}
+
+
+/* home */
+
+.home {
+	width: 100%;
+	position: relative;
+}
+
+.home_img {
+	width: 100%;
+}
+
+.home h1 {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: lighter;
+	letter-spacing: 10px;
+	font-size: 50px;
+	color: #F4F2F2;
+	position: absolute;
+	bottom: 30%;
+	right: 10%;
+}
+
+#home_link {
+	float: right;
+	position: absolute;
+	bottom: 27%;
+	right: 10%;
+	padding-left: 4px;
+	font-size: 17px;
+	font-family: 'Noto Serif SC', serif;
+}
+
+.home_link {
+	text-decoration: none;
+	padding-right: 15px;
+	color: #F4F2F2;
+}
+
+.home_link:hover {
+	text-decoration: none;
+	color: #F4F2F2;
+	opacity: 0.7;
+	transition: .3s;
+}
+
+
+/* info */
+
+.info_img {
+	display: block;
+	margin: 30px auto;
+	width: 170px;
+	border-radius: 50%;
+}
+
+.info_link {
+	text-align: center;
+}
+
+.info_link h1 {
+	font-size: 30px;
+}
+
+.info_link a:hover {
+	text-decoration: none;
+	opacity: 0.7;
+	transition: .3s;
+}
+
+
+/* scenario */
+
