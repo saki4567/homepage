@@ -1,0 +1,16 @@
+<%= render "layouts/header" %>
+
+<div class="main_container">
+
+	<div class="scenario_container">
+		<% @scenarios.each do |scenario| %>
+			<!-- <img src=" <%#= "/images/#{scenario.image_name}" %> "> -->
+			<h1><%= scenario.title %></h1>
+			<h5><%= scenario.description %></h5>
+			<p><%= scenario.place %> /
+			<%= scenario.people %> /
+			<%= scenario.time %></p>
+		<% end %>
+	</div>
+
+</div>
