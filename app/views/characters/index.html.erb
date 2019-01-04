@@ -1,0 +1,21 @@
+<%= render "layouts/header" %>
+
+
+<div class="row">
+	<div class="offset-md-3 col-md-6 mt-5">	
+
+		<div class="main_container row">
+
+			<% @characters.each do |character| %>
+				<div class="col-md-4 mb-3 px-2">
+					<div class="text-center p-3 character_container">
+						<!-- <img src=" <%#= "/images/#{character.image_name}" %> "> -->
+						<h1><%= link_to character.title, "#", class: "character_link text-dark" %></h1>
+					</div>
+				</div>
+			<% end %>
+
+		</div>
+
+	</div>
+</div>

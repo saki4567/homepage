@@ -1,16 +1,22 @@
 <%= render "layouts/header" %>
 
-<div class="main_container">
+<div class="row">
+	<div class="offset-md-3 col-md-6 mt-5">	
 
-	<div class="scenario_container">
-		<% @scenarios.each do |scenario| %>
-			<!-- <img src=" <%#= "/images/#{scenario.image_name}" %> "> -->
-			<h1><%= scenario.title %></h1>
-			<h5><%= scenario.description %></h5>
-			<p><%= scenario.place %> /
-			<%= scenario.people %> /
-			<%= scenario.time %></p>
-		<% end %>
+		<div class="main_container">
+
+			<% @scenarios.each do |scenario| %>
+				<div class="scenario_container my-5">
+					<!-- <img src=" <%#= "/images/#{scenario.image_name}" %> "> -->
+					<h1><%= scenario.title %></h1>
+					<h5><%= scenario.description %></h5>
+					<p><%= scenario.place %> /
+					<%= scenario.people %> /
+					<%= scenario.time %></p>
+				</div>
+			<% end %>
+
+		</div>
+
 	</div>
-
 </div>

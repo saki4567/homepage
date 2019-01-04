@@ -8,14 +8,10 @@ body p {
 
 .main_container {
 	font-family: 'Noto Serif JP', serif;
-	width: 45%;
-	margin: 70px auto;
 }
 
 
-
 /* Header */
-
 
 .navbar {
 	height: 130px;
@@ -30,7 +26,7 @@ body p {
 
 .navbar .nav-link:hover {
 	color: #F4F2F2;
-	opacity: 0.7;
+	opacity: 0.5;
 	transition: .3s;
 }
 
@@ -76,7 +72,7 @@ body p {
 .home_link:hover {
 	text-decoration: none;
 	color: #F4F2F2;
-	opacity: 0.7;
+	opacity: 0.5;
 	transition: .3s;
 }
 
@@ -100,7 +96,7 @@ body p {
 
 .info_link a:hover {
 	text-decoration: none;
-	opacity: 0.7;
+	opacity: 0.5;
 	transition: .3s;
 }
 
@@ -113,4 +109,17 @@ body p {
 
 .scenario_container h5 {
 	margin: 13px 0 0 0;
+}
+
+
+/* character */
+
+.character_container h1 {
+	font-size: 20px;
+}
+
+.character_link:hover {
+	text-decoration: none;
+	opacity: 0.5;
+	transition: .3s;
 }
